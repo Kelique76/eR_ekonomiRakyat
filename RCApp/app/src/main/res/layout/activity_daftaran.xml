@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dagang2"
+    tools:context="com.kelique.rcapp.DaftarActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content2"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dummy_button" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/texteMail"
+                android:layout_width="349dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/textPass1"
+                android:layout_alignLeft="@+id/textPass1"
+                android:layout_alignStart="@+id/textPass1"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/wijetkrem"
+                android:drawableRight="@mipmap/ic_nama"
+                android:hint="Masukkan Email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="18dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/textPass1"
+                android:layout_width="349dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/textPass2"
+                android:layout_alignLeft="@+id/textPass2"
+                android:layout_alignStart="@+id/textPass2"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/wijetkrem"
+                android:drawableRight="@mipmap/ic_amil"
+                android:hint="Masukkan Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="17dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <EditText
+                android:id="@+id/textPass2"
+                android:layout_width="349dp"
+                android:layout_height="42dp"
+                android:layout_above="@+id/buttonDaftar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/wijetkrem"
+                android:drawableRight="@mipmap/ic_password"
+                android:hint="Masukkan Ulang Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <Button
+                android:id="@+id/buttonDaftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/wijetkuning"
+                android:text="Daftar"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

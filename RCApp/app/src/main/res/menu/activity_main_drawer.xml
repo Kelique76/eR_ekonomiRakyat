@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Tbhanggota"
+            android:icon="@drawable/people3"
+            android:title="Tambah Peserta" />
+        <item
+            android:id="@+id/nav_Lhtanggota"
+            android:icon="@drawable/people4"
+            android:title="Lihat Anggota / Transaksi" />
+        <item
+            android:id="@+id/nav_eCash"
+            android:icon="@drawable/money2"
+            android:title="Buka eCash" />
+        <item
+            android:id="@+id/nav_Tbank"
+            android:icon="@drawable/money1"
+            android:title="Buka TBank"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_telPust"
+                android:icon="@drawable/commerce"
+                android:title="Telpon Pusat" />
+            <item
+                android:id="@+id/nav_Pesan"
+                android:icon="@drawable/mohney"
+                android:title="Kirim Pesan ke Pusat" />
+        </menu>
+    </item>
+
+</menu>

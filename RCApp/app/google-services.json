@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "434009068966",
+    "firebase_url": "https://my-cash-republique.firebaseio.com",
+    "project_id": "my-cash-republique",
+    "storage_bucket": "my-cash-republique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434009068966:android:a8103c3e718df954",
+        "android_client_info": {
+          "package_name": "com.kelique.rcapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434009068966-j0atpk769lmqgiq85at76rvhbbgcuf0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRbbKBeUSceIBYLpQhZ0zBaw_YmOyPOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

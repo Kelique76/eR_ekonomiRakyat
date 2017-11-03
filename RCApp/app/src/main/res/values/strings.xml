@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RCApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Out</string>
+    <string name="action_foto_settings">Setting Profile Foto</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Semoga Beruntung</string>
+    <string name="dummy_content">SELAMAT\nBEKERJA</string>
+    <string name="dummy_content2">SELAMAT\nBERGABUNG</string>
+
+    <string name="title_activity_fullscreen">SELAMAT BEKERJA</string>
+
+    <string name="title_activity_daftaran">DaftaranActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
